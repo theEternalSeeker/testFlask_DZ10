@@ -30,7 +30,7 @@ def skill_(skill):
     str_skill +='</pre>'
     return str_skill
 
-app.run()
+app.run(host='127.0.0.2', port=80)
 
 
 
